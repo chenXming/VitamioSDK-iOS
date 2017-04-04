@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author             = { "chenxiaoming" => "chenxiaoming@asean-go.com" }
   s.ios.deployment_target = "7.0"
  
-  s.source        = {:git =>"https://github.com/chenXming/VitamioSDK-iOS.git", :commit =>'7a2d972001c78f4f3fcb2eaa266d0ccae1504540'}
+  s.source        = {:git =>"https://github.com/chenXming/VitamioSDK-iOS.git", :tag =>'1.0.1'}
 
   s.source_files  = "Vitamio", "Vitamio/include/Vitamio/*.h"
   s.public_header_files = "Vitamio/include/Vitamio/*.h"
