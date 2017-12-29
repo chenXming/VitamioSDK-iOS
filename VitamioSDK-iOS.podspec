@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "VitamioSDK-iOS"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Vitamio SDK SDK for iOS"
   s.homepage     = "https://github.com/chenXming/VitamioSDK-iOS.git"
   s.license      = "MIT"
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author             = { "chenxiaoming" => "chenxiaoming@asean-go.com" }
   s.ios.deployment_target = "7.0"
  
-  s.source        = {:git =>"https://github.com/chenXming/VitamioSDK-iOS.git", :tag =>'1.0.1'}
+  s.source        = {:git =>"https://github.com/chenXming/VitamioSDK-iOS.git", :tag =>'1.0.2'}
 
   s.source_files  = "Vitamio", "Vitamio/include/Vitamio/*.h"
   s.public_header_files = "Vitamio/include/Vitamio/*.h"
